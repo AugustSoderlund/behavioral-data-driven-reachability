@@ -134,3 +134,5 @@ dmypy.json
 checkpoint
 weights*
 *.mov
+*.pkl
+.DS_Store
