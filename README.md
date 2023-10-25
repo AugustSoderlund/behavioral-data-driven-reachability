@@ -1,5 +1,8 @@
 # Data-Driven Reachability Analysis Using Behavior Modes
 
+## SinD Dataset
+For the best results, request access for the full dataset [here](https://github.com/SOTIF-AVLab/SinD#access).
+
 ## Where to place the SinD dataset?
 ```bash
 ├───resources
