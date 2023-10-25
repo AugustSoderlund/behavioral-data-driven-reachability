@@ -85,11 +85,10 @@ def get_volumes():
 def get_state_inclusion_acc():
     """Code to reproduce the state inclusion accuracy
 
-    NOTE: This might take forever to compute, try one day's
-    worth of data under /resources/SinD/Data/<8_02_1> and/or
-    change the value of the 'frames' argument.
+    NOTE: This might take forever to compute. To tackle
+    this, try decreasing the value of the 'frames' argument.
     """
-    _simulation(load_data=False, load_calc_d_data=False, frames=400)
+    _simulation(load_data=False, load_calc_d_data=False, frames=1000)
     visualize_state_inclusion_acc()
 
 
@@ -97,10 +96,10 @@ if __name__ == "__main__":
     # NOTE: Get the full dataset for best results
 
     # To reproduce the results in Fig. 4
-    get_modal_zonotopes_for_scenarios()
+    # get_modal_zonotopes_for_scenarios()
 
     # To reproduce the results in Table II
     get_volumes()
 
     # To reproduce the results in Fig. 5
-    get_state_inclusion_acc()
+    # get_state_inclusion_acc()
