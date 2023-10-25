@@ -7,5 +7,7 @@
 │       └───Data
 │           mapfile-Tianjin.osm   #<-- ensure that this file is under /Data/
 │           └───8_02_1
-│           └───...
+│           └───X_XX_X
+│           └───Y_YY_Y
+│           └───... 
 ```
