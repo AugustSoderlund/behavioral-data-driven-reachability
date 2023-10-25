@@ -136,3 +136,5 @@ weights*
 *.mov
 *.pkl
 .DS_Store
+
+resources*
